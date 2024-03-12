@@ -7,7 +7,9 @@ const Review = () => {
   const {name, job, image, text} = people[index]
 
   const nextPerson = () => {
-    
+    setIndex((index) => {
+      let newIndex 
+    })
   }
   
   return <article className='review'>
