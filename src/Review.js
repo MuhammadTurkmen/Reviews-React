@@ -6,6 +6,11 @@ const Review = () => {
   const [index, setIndex] = useState(0)
   const {name, job, image, text} = people[index]
 
+  const checkNumber = (number) => {
+    
+  }
+
+
   const nextPerson = () => {
     setIndex((index) => {
       let newIndex = index + 1
