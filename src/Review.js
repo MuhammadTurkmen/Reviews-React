@@ -5,6 +5,11 @@ import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 const Review = () => {
   const [index, setIndex] = useState(0)
   const {name, job, image, text} = people[index]
+
+  const nextPerson = () => {
+    
+  }
+  
   return <article className='review'>
     <div className="img-container">
       <img src={image} alt={name} className='person-img'/>
