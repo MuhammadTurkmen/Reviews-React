@@ -13,6 +13,14 @@ const Review = () => {
     })
   }
   
+  const nextPerson = () => {
+    setIndex((index) => {
+      let newIndex = index + 1
+      return newIndex
+    })
+  }
+
+
   return <article className='review'>
     <div className="img-container">
       <img src={image} alt={name} className='person-img'/>
