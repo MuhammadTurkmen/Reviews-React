@@ -6,7 +6,7 @@ const Review = () => {
   const [index, setIndex] = useState(0)
   const {name, job, image, text} = people[index]
   return <article className='review'>
-
+    <div className="img-container"></div>
   </article>
 }; 
 
