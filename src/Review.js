@@ -7,7 +7,9 @@ const Review = () => {
   const {name, job, image, text} = people[index]
 
   const checkNumber = (number) => {
-    
+    if(number > people.length - 1) {
+      
+    }
   }
 
 
