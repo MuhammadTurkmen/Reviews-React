@@ -6,4 +6,4 @@ const Review = () => {
   return <h2>review component</h2>;
 }; 
 
-export default Review;   
+export default Review;
