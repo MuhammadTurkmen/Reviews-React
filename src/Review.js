@@ -19,8 +19,8 @@ const Review = () => {
       <button className='prev-btn'>
         <FaChevronLeft />
       </button>
-      <button className='prev-btn'>
-        <FaChevronLeft />
+      <button className='next-btn'>
+        <FaChevronRight />
       </button>
       <button className='prev-btn'>
         <FaChevronLeft />
