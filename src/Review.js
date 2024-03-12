@@ -16,7 +16,9 @@ const Review = () => {
     <p className='job'>{job}</p>
     <p className="info">{text}</p>
     <div className="button-container">
-      
+      <button>
+        
+      </button>
     </div>
   </article>
 }; 
