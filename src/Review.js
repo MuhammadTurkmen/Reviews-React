@@ -8,7 +8,7 @@ const Review = () => {
 
   const checkNumber = (number) => {
     if(number > people.length - 1) {
-      
+      return 0
     }
   }
 
