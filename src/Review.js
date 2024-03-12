@@ -8,7 +8,7 @@ const Review = () => {
 
   const nextPerson = () => {
     setIndex((index) => {
-      let newIndex 
+      let newIndex = index + 1
     })
   }
   
