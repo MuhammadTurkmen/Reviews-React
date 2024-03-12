@@ -13,7 +13,7 @@ const Review = () => {
     })
   }
   
-  const nextPerson = () => {
+  const prevPerson = () => {
     setIndex((index) => {
       let newIndex = index + 1
       return newIndex
