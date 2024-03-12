@@ -33,7 +33,7 @@ const Review = () => {
 
 
   const randomPerson = () => {
-    console.log(Math.random());
+    let randomNumber = Math.random() * people.length
   }
 
   return <article className='review'>
