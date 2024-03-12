@@ -7,7 +7,7 @@ const Review = () => {
   const {name, job, image, text} = people[index]
   return <article className='review'>
     <div className="img-container">
-      <img src={image} alt={name} />
+      <img src={image} alt={name} className='person-img'/>
     </div>
   </article>
 }; 
