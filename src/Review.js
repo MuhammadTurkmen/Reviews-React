@@ -16,7 +16,7 @@ const Review = () => {
     <p className='job'>{job}</p>
     <p className="info">{text}</p>
     <div className="button-container">
-      <button className='prev-btn'>
+      <button className='prev-btn' onClick={prevPerson}>
         <FaChevronLeft />
       </button>
       <button className='next-btn'>
