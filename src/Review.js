@@ -22,7 +22,7 @@ const Review = () => {
       <button className='next-btn'>
         <FaChevronRight />
       </button>
-      <button className='prev-btn'>
+      <button className='random-btn'>
         <FaChevronLeft />
       </button>
     </div>
