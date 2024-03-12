@@ -15,7 +15,7 @@ const Review = () => {
   
   const prevPerson = () => {
     setIndex((index) => {
-      let newIndex = index + 1
+      let newIndex = index - 1
       return newIndex
     })
   }
