@@ -31,18 +31,17 @@ const Review = () => {
     })
   }
 
-
   const randomPerson = () => {
     let randomNumber = Math.floor(Math.random() * people.length)
     if(randomNumber === index) {
       randomNumber = index + 1 
     } 
-    setIndex(checkNumber(randomNumber))  
-  } 
-   
-  return <article className='review'>    
-    <div className="img-container">    
-      <img src={image} alt={name} className='person-img'/> 
+    setIndex(checkNumber(randomNumber))
+  }
+
+  return <article className='review'>
+    <div className="img-container">
+      <img src={image} alt={name} className='person-img'/>
       <span className='quote-icon'>
         <FaQuoteRight />
       </span>
